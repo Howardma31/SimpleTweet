@@ -31,6 +31,8 @@ Here's a walkthrough of implemented user stories:
 
 <img src="SimpleTweet Demo.gif" width=250><br>
 
+<img src="SimpleTweet Demo2.gif" width=250><br>
+
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
