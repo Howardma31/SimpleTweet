@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/ivProfilePictureDetail"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="17dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <TextView
+        android:id="@+id/tvBodyDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ivProfilePictureDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="5dp"
+        android:textSize="20sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivProfilePictureDetail"
+        tools:text="This is my first tweet!" />
+
+    <TextView
+        android:id="@+id/tvScreenNameDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/ivProfilePictureDetail"
+        app:layout_constraintStart_toEndOf="@+id/ivProfilePictureDetail"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:text="rahul1234" />
+
+    <ImageView
+        android:id="@+id/ivRetweetDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBodyDetail"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="102dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@drawable/ic_retweet_twitter" />
+
+    <ImageView
+        android:id="@+id/ivHeartDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvBodyDetail"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:layout_toEndOf="@+id/ivRetweetDetail"
+        app:srcCompat="@drawable/ic_heart_twitter" />
+
+    <TextView
+        android:id="@+id/tvTimestampDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="25dp"
+        android:layout_toEndOf="@+id/tvScreenNameDetail"
+        tools:text="8m" />
+</RelativeLayout>

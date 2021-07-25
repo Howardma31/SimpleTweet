@@ -13,7 +13,7 @@ import com.codepath.oauth.OAuthLoginActionBarActivity;
 
 import java.sql.Time;
 
-public class LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
+public class 	LoginActivity extends OAuthLoginActionBarActivity<TwitterClient> {
 
 	SampleModelDao sampleModelDao;
 	
