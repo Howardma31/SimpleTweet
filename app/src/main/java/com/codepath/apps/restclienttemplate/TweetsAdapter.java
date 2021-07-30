@@ -88,9 +88,9 @@ public class TweetsAdapter extends RecyclerView.Adapter<TweetsAdapter.ViewHolder
         }
 
         public void bind(Tweet tweet) {
-            tvBody.setText(tweet.getBody());
-            tvScreenName.setText(tweet.getUser().getScreenName());
-            Glide.with(context).load(tweet.getUser().getProfileImageUrl()).into(ivProfileImage);
+            tvBody.setText(tweet.body);
+            tvScreenName.setText(tweet.user.screenName);
+            Glide.with(context).load(tweet.user.profileImageUrl).into(ivProfileImage);
             tvTimestamp.setText(tweet.getFormattedTimestamp());
 
             // 1. Register click listener on the whole row

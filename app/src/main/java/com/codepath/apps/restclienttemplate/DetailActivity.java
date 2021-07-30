@@ -30,9 +30,9 @@ public class DetailActivity extends AppCompatActivity {
 
         Tweet tweet = (Tweet) Parcels.unwrap(getIntent().getParcelableExtra("tweet"));
         tvScreenName.setText(tweet.getScreenName());
-        tvBody.setText(tweet.getBody());
+        tvBody.setText(tweet.body);
         tvTimestamp.setText(tweet.getFormattedTimestamp());
-        Glide.with(this).load(tweet.getUser().getProfileImageUrl()).into(ivProfileImage);
+        Glide.with(this).load(tweet.user.profileImageUrl).into(ivProfileImage);
     }
 
 }
