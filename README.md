@@ -37,7 +37,7 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-
+Working on other stretch stories
 
 ## Open-source libraries used
 
