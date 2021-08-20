@@ -46,7 +46,7 @@ Working on other stretch stories
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2021] [Howard Ma]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
@@ -109,7 +109,7 @@ Will continue to work on stretch stories
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2021] [Howard Ma]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
